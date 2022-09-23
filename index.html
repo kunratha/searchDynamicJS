@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Header using videos bacground</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <video autoplay loop class="bacground-video" muted plays-inline>
+        <source src="videos/avatar.mp4" type="video/mp4">
+      </video>
+      <nav>
+        <img src="img/cinemaLogo.jpg" class="logo">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sign up</a></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a class="btn" href="#">Sign up</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+         <h1>Cinéma Rilletthes</h1>
+          <form class="" action="" target="_blank" method="get">
+            <input  type="text" id="myInput" onkeyup="filter()" placeholder="&#128269; Trouver votre cinéma">
+
+            <!-- <button id="submit_btn" class="btn-submit" type="submit" name="button">Chercher</button> -->
+          </form>
+      </div>
+      <ul id="myUL">
+        <li><a href="#">Nantes</a></li>
+        <li><a href="#">Paris</a></li>
+
+        <li><a href="#">Bordeaux</a></li>
+        <li><a href="#">Tolouse</a></li>
+
+        <li><a href="#">Marseille</a></li>
+        <li><a href="#">Nice</a></li>
+        <li><a href="#">Lyon</a></li>
+     </ul>
+    </div>
+  </body>
+  <script type="text/javascript" src="searchList.js"></script>
+</html>
